@@ -224,6 +224,11 @@ body {
                     color: darkblue;
                     background-color: #fff;
                     margin-left: 25px;
+                    transition: 0.7s;
+                    &:hover{
+                      background-color: skyblue;
+                    }
+                 
                 }
                 }
             }

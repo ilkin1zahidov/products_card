@@ -206,4 +206,8 @@ body {
   color: darkblue;
   background-color: #fff;
   margin-left: 25px;
+  transition: 0.7s;
+}
+#product--main .all .all_product--card .container .card .submit_learn form input:hover {
+  background-color: skyblue;
 }/*# sourceMappingURL=product-1.css.map */

@@ -216,7 +216,7 @@ body {
             form{
              
                 input{
-                    width: 118px;
+                  width: 118px;
                     height: 34px;
                     border: 1px solid skyblue;
                     border-radius: 14px;
@@ -224,6 +224,10 @@ body {
                     color: darkblue;
                     background-color: #fff;
                     margin-left: 25px;
+                    transition: 0.7s;
+                    &:hover{
+                      background-color: skyblue;
+                    }
                 }
                 }
             }
@@ -444,6 +448,10 @@ body {
                 color: darkblue;
                 background-color: #fff;
                 margin-left: 25px;
+                transition: 0.7s;
+                &:hover{
+                  background-color: skyblue;
+                }
               }
             }
           }

@@ -58,7 +58,7 @@ body {
   align-items: center;
 }
 #product--main .container .all .all_product--card .product--head .card--image {
-  width: 243px;
+  width: 345px;
   height: 300px;
   border-radius: 4px;
   -o-object-fit: cover;
@@ -100,7 +100,7 @@ body {
   display: flex;
   position: absolute;
   top: 11px;
-  left: 126px;
+  left: 118px;
 }
 #product--main .container .all .all_product--card .product--head .card--all .color-card .colors .blue {
   width: 20px;
