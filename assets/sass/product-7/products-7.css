@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+main #products--card {
+  width: 100%;
+  height: auto;
+}
+main #products--card .container {
+  padding: 70px 80px;
+  display: flex;
+  justify-content: center;
+}
+main #products--card .container .head-text {
+  text-align: center;
+  flex-direction: column;
+  margin-top: 80px;
+}
+main #products--card .container .head-text h4 {
+  font-weight: 700;
+  color: green;
+  margin-bottom: 20px;
+}
+main #products--card .container .head-text h1 {
+  font-weight: 900;
+  color: #252B42;
+  margin-bottom: 15px;
+}
+main #products--card .container .head-text p {
+  font-weight: 400;
+  opacity: 0.7;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+main #products--card .container .head-text a {
+  color: #252B42;
+  text-decoration: none;
+  font-weight: 700;
+}
+main #products--card .container .card {
+  width: 340px;
+  height: 413px;
+}
+main #products--card .container .card img {
+  width: 239px;
+  height: 317px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-left: 30px;
+}
+main #products--card .container .card-body {
+  text-align: center;
+}
+main #products--card .container .card-body h4 {
+  font-weight: 700;
+  color: #252B42;
+  margin-bottom: 10px;
+}
+main #products--card .container .card-body p {
+  font-weight: 200;
+  opacity: 0.5;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+main #products--card .container .card-body .products_colors {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+main #products--card .container .card-body .products_colors .blue {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #23A6F0;
+  background-color: #23A6F0;
+  border-radius: 50%;
+}
+main #products--card .container .card-body .products_colors .green {
+  width: 15px;
+  height: 15px;
+  border: 1px solid green;
+  background-color: green;
+  border-radius: 50%;
+}
+main #products--card .container .card-body .products_colors .orange {
+  width: 15px;
+  height: 15px;
+  border: 1px solid orange;
+  background-color: orange;
+  border-radius: 50%;
+}
+main #products--card .container .card-body .products_colors .black {
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 850px) {
+  #products--card .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  #products--card .container .card {
+    margin-top: 20px;
+  }
+}/*# sourceMappingURL=products-7.css.map */

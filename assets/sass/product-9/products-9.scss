@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main{
+  
+
+    #products--card{
+        width: 100%;
+        height: auto;
+        .container{
+            padding: 80px 36px;
+            display: flex;
+            
+           
+        
+
+            .accessory{
+                width: 627px;
+                height: 468px;
+                color: #fff;
+                position: relative;
+                img{
+                    width: 633px;
+                    height: 426px;
+                    object-fit: cover;
+                    border-radius: 4px;
+                }
+                .accessory-text{
+                    position: absolute;
+                    top: 157px;
+                    left: 277px;
+                    text-align: center;
+
+                    h3{
+                        font-weight: 900;
+                        margin-bottom: 20px;
+                    }
+
+                    p{
+                        font-weight: 700;
+                    }
+                }
+            }
+
+
+
+            .card{
+                
+                width: 340px;
+                height: 413px;
+                img{
+                    width: 239px;
+                 height: 317px;
+   
+                   object-fit: cover;
+                 margin-left: 67px;
+                }
+                .card-body{
+                    text-align: center;
+                
+                    h4{ 
+
+                     font-weight: 700;
+                     color:#252B42;
+                     margin-bottom: 10px;
+                    }
+                    p{
+                        font-weight: 200;
+                        opacity: 0.5;
+                        font-size: 14px;
+                        margin-bottom: 10px;
+                    }
+
+             
+
+                    
+                
+                    .products_colors{
+                        margin-top: 10px;
+                        display: flex;
+                        justify-content: center;
+                        gap: 5px;
+                     
+                        .blue{
+                            width: 15px;
+                            height: 15px;
+                            border:1px solid #23A6F0;
+                            background-color: #23A6F0;
+                            border-radius: 50%;
+                        }
+                        .green{
+                            width: 15px;
+                            height: 15px;
+                            border:1px solid green;
+                            background-color: green;
+                            border-radius: 50%;
+                        }
+                        .orange{
+                            width: 15px;
+                            height: 15px;
+                            border:1px solid orange;
+                            background-color: orange;
+                            border-radius: 50%;
+                        }
+
+                        .black{
+                            width: 15px;
+                            height: 15px;
+                            border:1px solid black;
+                            background-color: black;
+                            border-radius: 50%;
+                        }
+
+                    }
+
+                }
+                }
+               
+            }
+        }
+    }
+
+    @media only screen and (max-width: 850px){
+        main{
+            #products--card { 
+                .container {
+                    padding: 80px 36px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    .accessory{
+                        width: 100%;
+                        height: auto;
+
+                        img{
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                    .card{
+                        display: flex;
+                       
+                        flex-direction: column;
+                        text-align: center;
+                        margin-right: 20px;
+                 
+                        margin-bottom: 30px;
+                     
+        
+                    
+                    }
+                }
+           
+            }
+        }
+   
+}

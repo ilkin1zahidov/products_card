@@ -51,15 +51,19 @@ body {
 #product--main .container .all .all_product--card .product--head span {
   opacity: 0.7;
 }
-#product--main .container .all .all_product--card .product--head .card {
+#product--main .container .all .all_product--card .product--head .container .card {
   width: 372px;
   height: auto;
   margin-top: 25px;
   align-items: center;
 }
 #product--main .container .all .all_product--card .product--head .card--image {
-  width: 345px;
-  height: 300px;
+  width: 100%;
+  height: auto;
+}
+#product--main .container .all .all_product--card .product--head .card--image img {
+  width: 100%;
+  height: auto;
   border-radius: 4px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -152,4 +156,65 @@ body {
 }
 #product_use .container h4 p {
   opacity: 0.7;
+}
+
+@media only screen and (max-width: 850px) {
+  #product--main .container .all {
+    display: flex;
+    width: 100%;
+    margin-top: 5px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-left: 20px;
+    gap: 20px;
+  }
+  #product--main .container .all .all_product--card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAFA;
+    border-radius: 4px;
+    text-align: center;
+    justify-content: center;
+  }
+  #product--main .container .all .all_product--card .product--head {
+    width: 100%;
+    height: 170px;
+    text-align: center;
+    margin-top: 30px;
+    justify-content: center;
+    flex-direction: center;
+    align-items: center;
+  }
+  #product--main .container .all .all_product--card .product--head p {
+    font-size: 37px;
+    margin-bottom: 20px;
+  }
+  #product--main .container .all .all_product--card .product--head span {
+    opacity: 0.7;
+    font-size: 14px;
+  }
+  #product--main .container .all .all_product--card .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    margin-left: 20px;
+  }
+  #product--main .container .all .all_product--card .container .card {
+    width: 100%;
+    height: auto;
+  }
+  #product--main .container .all .all_product--card .container .card img {
+    width: 100%;
+    height: auto;
+  }
+  #product_use {
+    display: none;
+  }
 }/*# sourceMappingURL=product-4.css.map */
