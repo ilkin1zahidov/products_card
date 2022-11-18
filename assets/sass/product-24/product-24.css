@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+main #bestseller--products {
+  width: 100%;
+  height: auto;
+}
+main #bestseller--products .container {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 30px;
+}
+main #bestseller--products .container ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+main #bestseller--products .container ul li a {
+  color: grey;
+  text-decoration: none;
+}
+main #bestseller--products .container ul li a:hover {
+  transition: 0.5s;
+  background-color: #fff;
+  color: skyblue;
+}
+main #bestseller--products .container .icons {
+  display: flex;
+  width: 35%;
+  justify-content: flex-end;
+  gap: 15px;
+  cursor: pointer;
+}
+main #bestseller--products .container .icons i {
+  font-size: 20px;
+}
+main #bestseller--products .container .icons i:hover {
+  transition: 0.5s;
+  background-color: #fff;
+  color: skyblue;
+}
+main #product-watch {
+  width: 100%;
+  height: auto;
+}
+main #product-watch .container {
+  padding: 30px 70px;
+}
+main #product-watch .container .all {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+main #product-watch .container .card-watch {
+  width: 30%;
+  height: auto;
+}
+main #product-watch .container .card-watch .card-common {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+main #product-watch .container .card-watch .card-common .card {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  height: auto;
+  justify-content: center;
+}
+main #product-watch .container .card-watch .card-common .card-text {
+  text-align: center;
+  line-height: 25px;
+  padding: 40px 23px;
+}
+main #product-watch .container .card-watch .card-img {
+  width: 30%;
+  height: auto;
+}
+main #product-watch .container .card-watch .card-img img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main #product-watch .card-all {
+  width: 48%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+main #product-watch .card-all .card-common {
+  width: 22%;
+  height: auto;
+}
+main #product-watch .card-all .card-common .card {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+main #product-watch .card-all .card-common .card img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+main #product-watch .card-all .card-common .card .card-body h4 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+main #product-watch .card-all .card-common .card .card-body p {
+  font-size: 17px;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+main #product-watch .card-all .card-common .card .card-body span {
+  font-size: 20px;
+}
+
+@media only screen and (max-device-width: 600px) {
+  main #bestseller--products {
+    width: 100%;
+    height: auto;
+  }
+  main #bestseller--products .container {
+    display: flex;
+    flex-direction: column;
+  }
+  main #bestseller--products .container .icons {
+    display: flex;
+    gap: 11px;
+    cursor: pointer;
+    text-align: -webkit-center !important;
+    width: 2%;
+    height: auto;
+    cursor: pointer;
+  }
+  main #product-watch .container {
+    padding: 10px;
+  }
+  main #product-watch .container .all {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  main #product-watch .container .all .card-watch {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  main #product-watch .container .all .card-watch .card-common {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  main #product-watch .container .all .card-watch .card-common .card {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    height: auto;
+    justify-content: center;
+  }
+  main #product-watch .container .all .card-watch .card-common .card .card-text {
+    padding: 28px 12px;
+  }
+  main #product-watch .container .all .card-all {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  main #product-watch .container .all .card-all .card-common {
+    width: 100%;
+    height: auto;
+  }
+  main #product-watch .container .all .card-all .card-common .card {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  main #product-watch .container .all .card-all .card-common .card img {
+    width: 67%;
+    height: auto;
+  }
+}
+@media only screen and (max-device-width: 850px) {
+  main #bestseller--products {
+    width: 100%;
+    height: auto;
+  }
+  main #bestseller--products .container {
+    display: flex;
+    flex-direction: column;
+  }
+  main #bestseller--products .container .icons {
+    display: flex;
+    gap: 11px;
+    cursor: pointer;
+    text-align: -webkit-center !important;
+    width: 2%;
+    height: auto;
+    cursor: pointer;
+  }
+  main #product-watch .container {
+    padding: 10px;
+  }
+  main #product-watch .container .all {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  main #product-watch .container .all .card-watch {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  main #product-watch .container .all .card-watch .card-common {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  main #product-watch .container .all .card-watch .card-common .card {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    height: auto;
+    justify-content: center;
+  }
+  main #product-watch .container .all .card-watch .card-common .card .card-text {
+    padding: 28px 12px;
+  }
+  main #product-watch .container .all .card-all {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  main #product-watch .container .all .card-all .card-common {
+    width: 100%;
+    height: auto;
+  }
+  main #product-watch .container .all .card-all .card-common .card {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  main #product-watch .container .all .card-all .card-common .card img {
+    width: 45%;
+    height: auto;
+  }
+}/*# sourceMappingURL=product-24.css.map */

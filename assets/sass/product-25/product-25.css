@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+main #bestseller--products {
+  width: 100%;
+  height: auto;
+}
+main #bestseller--products .container {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 30px;
+}
+main #bestseller--products .container ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+main #bestseller--products .container ul li a {
+  color: grey;
+  text-decoration: none;
+}
+main #bestseller--products .container ul li a:hover {
+  transition: 0.5s;
+  background-color: #fff;
+  color: skyblue;
+}
+main #bestseller--products .container .icons {
+  display: flex;
+  width: 35%;
+  justify-content: flex-end;
+  gap: 15px;
+  cursor: pointer;
+}
+main #bestseller--products .container .icons i {
+  font-size: 20px;
+}
+main #bestseller--products .container .icons i:hover {
+  transition: 0.5s;
+  background-color: #fff;
+  color: skyblue;
+}
+main #product--food {
+  width: 100%;
+  height: auto;
+}
+main #product--food .container {
+  padding: 20px 30px;
+}
+main #product--food .container .all {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+main #product--food .container .all .food-part {
+  width: 54%;
+  height: auto;
+}
+main #product--food .container .all .food-part img {
+  width: 65%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main #product--food .container .all .card-all {
+  width: 40%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+main #product--food .container .all .card-all .card-common {
+  width: 28%;
+  height: auto;
+}
+main #product--food .container .all .card-all .card-common .card {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+main #product--food .container .all .card-all .card-common .card img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+main #product--food .container .all .card-all .card-common .card .card-body h4 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+main #product--food .container .all .card-all .card-common .card .card-body p {
+  font-size: 17px;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+main #product--food .container .all .card-all .card-common .card .card-body span {
+  font-size: 20px;
+}
+
+@media only screen and (max-device-width: 600px) {
+  main #bestseller--products {
+    width: 100%;
+    height: auto;
+  }
+  main #bestseller--products .container {
+    display: flex;
+    flex-direction: column;
+  }
+  main #bestseller--products .container .icons {
+    display: flex;
+    gap: 11px;
+    cursor: pointer;
+    text-align: -webkit-center !important;
+    width: 2%;
+    height: auto;
+    cursor: pointer;
+  }
+  main #product--food {
+    width: 100%;
+    height: auto;
+  }
+  main #product--food .container {
+    padding: 10px;
+  }
+  main #product--food .container .all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  main #product--food .container .all .food-part {
+    width: 89%;
+    height: auto;
+  }
+  main #product--food .container .all .food-part img {
+    width: 65%;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main #product--food .container .all .card-all {
+    width: 88%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  main #product--food .container .all .card-all .card-common {
+    width: 100%;
+    height: auto;
+  }
+  main #product--food .container .all .card-all .card-common .card {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  main #product--food .container .all .card-all .card-common .card img {
+    width: 60%;
+    height: auto;
+  }
+}
+@media only screen and (min-device-width: 700px) and (max-device-width: 850px) {
+  main #bestseller--products {
+    width: 100%;
+    height: auto;
+  }
+  main #bestseller--products .container {
+    display: flex;
+    flex-direction: column;
+  }
+  main #bestseller--products .container h1 {
+    font-size: 30px;
+  }
+  main #bestseller--products .container ul {
+    font-size: 30px;
+  }
+  main #bestseller--products .container .icons {
+    display: flex;
+    gap: 11px;
+    cursor: pointer;
+    text-align: -webkit-center !important;
+    width: 0%;
+    height: auto;
+    cursor: pointer;
+  }
+  main #bestseller--products .container .icons i {
+    font-size: 30px;
+  }
+  main #product--food {
+    width: 100%;
+    height: auto;
+  }
+  main #product--food .container {
+    padding: 10px 80px;
+  }
+  main #product--food .container .all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  main #product--food .container .all .food-part {
+    width: 89%;
+    height: auto;
+  }
+  main #product--food .container .all .food-part img {
+    width: 65%;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  main #product--food .container .all .card-all {
+    width: 88%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  main #product--food .container .all .card-all .card-common {
+    width: 100%;
+    height: auto;
+  }
+  main #product--food .container .all .card-all .card-common .card {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  main #product--food .container .all .card-all .card-common .card img {
+    width: 60%;
+    height: auto;
+  }
+}/*# sourceMappingURL=product-25.css.map */
