@@ -485,6 +485,12 @@ body {
   main #product--main .all .all_product--card .container .card .icons {
     display: none;
   }
+  main #product--main .all .all_product--card .container .card .card--cash {
+    justify-content: center;
+  }
+  main #product--main .all .all_product--card .container .card .colors {
+    justify-content: center;
+  }
   main #product--second .all {
     display: flex;
     width: 100%;
@@ -544,5 +550,11 @@ body {
   }
   main #product--second .all .all_product--card .container .card .icons {
     display: none;
+  }
+  main #product--second .all .all_product--card .container .card .card--cash {
+    justify-content: center;
+  }
+  main #product--second .all .all_product--card .container .card .colors {
+    justify-content: center;
   }
 }/*# sourceMappingURL=product-3.css.map */
